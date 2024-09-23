@@ -134,7 +134,7 @@ conda install pip mpi4py openmpi-mpicc
 Run the command to install library from requirement.txt
 #### Linux or MacOS
 ```bash
-pip install stable-baselines3[extra]
+pip install 'stable-baselines3[extra]'
 
 pip install imitation
 
